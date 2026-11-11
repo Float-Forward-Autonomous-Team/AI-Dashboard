@@ -1,0 +1,29 @@
+# Dependencies
+node_modules/
+
+# Build output (npm run build)
+dist/
+*.tsbuildinfo
+.vite/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Local environment files
+.env
+.env.*
+!.env.example
+
+# Editor and OS files
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+Thumbs.db
+
+# Local AI and design tooling: not part of the dashboard
+.claude/
+.agents/
+.taste-skill/
+skills-lock.json
